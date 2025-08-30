@@ -15,10 +15,9 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        // Vider la table categories (désactive temporairement la vérification des clés étrangères)
-        // DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         DB::table('categories')->truncate();
-        // DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         // Insertion des données
         Category::insert([
