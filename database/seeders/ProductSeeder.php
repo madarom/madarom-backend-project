@@ -27,7 +27,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the leaves of Cinnamomum camphora, this oil is mainly used for respiratory and immune support due to its powerful antiviral properties. It is generally available as a liquid and has a fresh, camphor-like scent.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH001.png',
+                'image_path' => '/img/products/PH001.png',
             ],
             [
                 'reference' => 'PH0029',
@@ -38,7 +38,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from black pepper cultivated in Madagascar, Piper nigrum essential oil is known for its warm, spicy, and slightly woody aroma. Rich in active compounds, it is valued in aromatherapy for its stimulating and warming properties. It is also used in cosmetics, massage oils, and wellness formulas to promote circulation and relieve muscle tension.",
                 'category_id' => 1, 
                 'sub_category_id' => 3,  
-                'image_path' => './assets/img/products/PH0029.png',
+                'image_path' => '/img/products/PH0029.png',
             ],            
             [
                 'reference' => 'PH002', 
@@ -49,7 +49,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Also known as rose geranium essential oil, it has a sweet, floral, and slightly minty aroma. Widely used in perfumery, skincare, and aromatherapy, it is valued for its balancing, calming, and soothing properties. Its natural fragrance makes it a popular ingredient in cosmetics and wellness products.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (car propriétés équilibrantes et calmantes)
-                'image_path' => './assets/img/products/PH002.png',
+                'image_path' => '/img/products/PH002.png',
             ],
             [
                 'reference' => 'PE002', 
@@ -60,7 +60,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "It is renowned for its rich and creamy aroma with deep floral and sweet notes. Derived from hand-pollinated and carefully cured vanilla pods, this extract is highly prized in gastronomy, perfumery, and natural cosmetics. Its complexity and authenticity make it a choice ingredient to enhance desserts, beverages, and premium formulations.",
                 'category_id' => 2,  // Épices (extrait de vanille)
                 'sub_category_id' => 5,  // Culinaire
-                'image_path' => './assets/img/products/PE002.png',
+                'image_path' => '/img/products/PE002.png',
             ],
             [
                 'reference' => 'PH003', 
@@ -71,7 +71,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the leaves and flowers of Helichrysum gymnocephalum, this oil is highly valued for its restorative properties, especially in skin care. It reduces scars, stretch marks, and inflammations, with a strong herbaceous aroma in liquid form.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (réparateur / soin peau)
-                'image_path' => './assets/img/products/PH003.png',
+                'image_path' => '/img/products/PH003.png',
             ],
             [
                 'reference' => 'PH004', 
@@ -82,7 +82,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Appreciated for its earthy and herbaceous scent with subtle spicy notes, it is known for its powerful anti-inflammatory and skin-regenerating properties. Widely used in natural care, aromatherapy, and traditional medicine, its rarity and therapeutic virtues make it a highly sought-after plant.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (anti-inflammatoire et régénérateur)
-                'image_path' => './assets/img/products/PH004.png',
+                'image_path' => '/img/products/PH004.png',
             ],
             [
                 'reference' => 'PH005', 
@@ -93,7 +93,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Its strong, herbaceous and slightly lemony aroma is known for its antifungal and insect-repellent properties. It is used in natural pest control, perfumery, and traditional medicine. Its distinctive scent and bioactive compounds make it a valuable ingredient in cosmetic and agricultural applications.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (usage agricole et thérapeutique)
-                'image_path' => './assets/img/products/PH005.png',
+                'image_path' => '/img/products/PH005.png',
             ],
             [
                 'reference' => 'PH006', 
@@ -104,7 +104,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Derived from clove tree leaves, this oil retains the strong aromatic and analgesic properties of clove buds, but with a fresher and woodier note. It is mainly used for dental care and pain relief, usually in liquid form.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (usage analgésique / soin)
-                'image_path' => './assets/img/products/PH006.png',
+                'image_path' => '/img/products/PH006.png',
             ],
             [
                 'reference' => 'PH007',
@@ -115,7 +115,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Immerse yourself in the warm embrace of clove essential oil, steam-distilled from dried flower buds. Its warm, spicy, woody, and subtly fruity aroma evokes distant spices and ancestral traditions.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (usage énergisant, médicinal)
-                'image_path' => './assets/img/products/PH007.png',
+                'image_path' => '/img/products/PH007.png',
             ],
             [
                 'reference' => 'PH008',
@@ -126,7 +126,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Let yourself be carried away by the aromatic power of Eugenia caryophyllata essential oil, steam-distilled from dried floral buds. Its warm, spicy, subtly fruity and slightly woody scent awakens the senses from the very first notes.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (stimulant et aromatique)
-                'image_path' => './assets/img/products/PH008.png',
+                'image_path' => '/img/products/PH008.png',
             ],
             [
                 'reference' => 'PH009',
@@ -137,7 +137,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Discover the lesser-known side of cinnamon with leaf essential oil. Distilled from the tree’s leaves, it reveals a milder, herbal aroma with spicy and slightly medicinal undertones.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 2,  // Digestif (souvent utilisée pour ce type d'effet)
-                'image_path' => './assets/img/products/PH009.png',
+                'image_path' => '/img/products/PH009.png',
             ],
             [
                 'reference' => 'PH0010',
@@ -148,7 +148,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Let yourself be carried away by the warm aroma of ginger essential oil, steam-distilled from its rhizomes. Its spicy, warm and delicately lemony scent awakens the senses and invites vitality.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 2,  // Digestif
-                'image_path' => './assets/img/products/PH0010.png',
+                'image_path' => '/img/products/PH0010.png',
             ],
             [
                 'reference' => 'PH0011',
@@ -159,7 +159,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Known for its fresh, camphoraceous and slightly sweet aroma, niaouli is renowned for its antiseptic, respiratory, and immune-stimulating properties. Widely used in aromatherapy, skincare, and natural medicine, its purifying qualities make it a powerful ingredient in therapeutic and wellness formulas.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire
-                'image_path' => './assets/img/products/PH0011.png',
+                'image_path' => '/img/products/PH0011.png',
             ],
             [
                 'reference' => 'PH0012',
@@ -170,7 +170,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Its warm, woody, and slightly peppery aroma is recognized in traditional Malagasy medicine for its anti-inflammatory, analgesic, and tonifying properties. Katrafay is widely used in wellness treatments, notably as a massage oil and revitalizing care.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant
-                'image_path' => './assets/img/products/PH0012.png',
+                'image_path' => '/img/products/PH0012.png',
             ],
             [
                 'reference' => 'PH0013',
@@ -181,7 +181,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Derived from the leaves of eucalyptus citriodora, this oil is known for its refreshing scent and insect-repellent properties. Used in personal care products and aromatherapy, it is generally available in liquid form.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire
-                'image_path' => './assets/img/products/PH0013.png',
+                'image_path' => '/img/products/PH0013.png',
             ],
             [
                 'reference' => 'PH0014',
@@ -192,7 +192,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Immerse yourself in the intense and characteristic aroma of thymol from Thymus vulgaris CT, an essential oil extracted by steam distillation of the plant's leaves and flowering tops. Rich in thymol, its main chemotype.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire (adapté pour le thym)
-                'image_path' => './assets/img/products/PH0014.png',
+                'image_path' => '/img/products/PH0014.png',
             ],
             [
                 'reference' => 'PH0015',
@@ -203,7 +203,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Revitalize yourself with the essential oil of Cymbopogon citratus, obtained by steam distillation from finely cut and partially dried leaves. Its sharp, fresh, and powerfully lemony aroma makes it a true breath of fresh air, perfect for awakening the senses.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire (adapté à ses bienfaits)
-                'image_path' => './assets/img/products/PH0015.png',
+                'image_path' => '/img/products/PH0015.png',
             ],
             [
                 'reference' => 'PH0016',
@@ -214,7 +214,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Let yourself be wrapped by the natural brightness of Lemon essential oil, obtained by cold pressing fresh peels. Its sharp, sparkling, and intensely fresh scent instantly brings lightness and dynamism.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire (adapté à ses vertus)
-                'image_path' => './assets/img/products/PH0016.png',
+                'image_path' => '/img/products/PH0016.png',
             ],
             [
                 'reference' => 'PH0017',
@@ -225,7 +225,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Dive into the herbal, fresh, and subtly spicy aroma of Basil essential oil (Ocimum basilicum), steam-distilled from its leaves and flowering tops. Its refined scent awakens the senses while bringing a pleasant sensation of lightness.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire (adapté à ses vertus)
-                'image_path' => './assets/img/products/PH0017.png',
+                'image_path' => '/img/products/PH0017.png',
             ],
             [
                 'reference' => 'PH0018',
@@ -236,7 +236,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the leaves of Cinnamosma fragrans, this oil is known for its antiviral and immune-stimulating effects. Used in respiratory care and immune support products, it is available as a liquid with a spicy and vegetal scent.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire (adapté à ses vertus)
-                'image_path' => './assets/img/products/PH0018.png',
+                'image_path' => '/img/products/PH0018.png',
             ],
             [
                 'reference' => 'PH0019',
@@ -247,7 +247,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Immerse yourself in the aromatic richness of vetiver, an essential oil carefully extracted by steam distillation from its strong roots. Its intense, earthy, and woody scent invites serenity, self-connection, and grounding.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (adapté pour ses vertus calmantes et ancrantes)
-                'image_path' => './assets/img/products/PH0019.png',
+                'image_path' => '/img/products/PH0019.png',
             ],
             [
                 'reference' => 'PH0020',
@@ -258,7 +258,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the leaves of Eucalyptus globulus, this oil is known for its strong and sharp aroma and is commonly used to treat respiratory infections. Available in liquid form, it is a key ingredient in medicinal preparations such as cough syrups and balms.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 1,  // Respiratoire
-                'image_path' => './assets/img/products/PH0020.png',
+                'image_path' => '/img/products/PH0020.png',
             ],
             [
                 'reference' => 'PH0021',
@@ -269,7 +269,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Known for its fresh, spicy, and slightly sweet aroma, it is traditionally used for its revitalizing and regenerating properties. Increasingly appreciated in cosmetics for its firming and anti-aging effects. Its exotic scent also makes it a valuable ingredient in perfumery and wellness products.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (revitalisant)
-                'image_path' => './assets/img/products/PH0021.png',
+                'image_path' => '/img/products/PH0021.png',
             ],
             [
                 'reference' => 'PH0022',
@@ -280,7 +280,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Let yourself be carried away by the sparkling freshness of orange essential oil Citrus sinensis, obtained by cold pressing of the ripe fruit peel. Its joyful, fruity, and bright scent instantly spreads a feeling of well-being and good mood.",
                 'category_id' => 1,  // Huiles essentielles
                 'sub_category_id' => 3,  // Tonifiant (effet vivifiant)
-                'image_path' => './assets/img/products/PH0022.png',
+                'image_path' => '/img/products/PH0022.png',
             ],
             [
                 'reference' => 'PH0023',
@@ -291,7 +291,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the flowers of Cananga odorata, this oil is known for its rich and floral aroma. Highly appreciated in perfumery, it is also used for its soothing and aphrodisiac properties. Available in liquid form, it releases a soft and exotic fragrance.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH0023.png',
+                'image_path' => '/img/products/PH0023.png',
             ],
             [
                 'reference' => 'PH0024',
@@ -302,7 +302,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the flowers of Cananga odorata, this oil is known for its rich and floral aroma. Highly appreciated in perfumery, it is also used for its soothing and aphrodisiac properties. Available in liquid form, it releases a soft and exotic fragrance.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH0024.png',
+                'image_path' => '/img/products/PH0024.png',
             ],
             [
                 'reference' => 'PH0025',
@@ -313,7 +313,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the flowers of Cananga odorata, this oil is known for its rich and floral aroma. Highly appreciated in perfumery, it is also used for its soothing and aphrodisiac properties. Available in liquid form, it releases a soft and exotic fragrance.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH0025.png',
+                'image_path' => '/img/products/PH0025.png',
             ],
             [
                 'reference' => 'PH0026',
@@ -324,7 +324,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Derived from the leaves of eucalyptus radiata, this oil is softer and more delicate than other eucalyptus oils, making it ideal for respiratory health and aromatherapy. Its fresh and pure scent is available in liquid form.",
                 'category_id' => 1,
                 'sub_category_id' => 1,  
-                'image_path' => './assets/img/products/PH0026.png',
+                'image_path' => '/img/products/PH0026.png',
             ],
             [
                 'reference' => 'PH0030',
@@ -335,7 +335,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Immerse yourself in the floral softness of Palmarosa essential oil, obtained by steam distillation of fresh or partially dried herbs. Its subtle scent, both floral, herbal, and delicately exotic, recalls the sweetness of rose while offering a unique note.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH0030.png',
+                'image_path' => '/img/products/PH0030.png',
             ],
             [
                 'reference' => 'PH0027',
@@ -346,7 +346,7 @@ class ProductSeeder extends Seeder
                 'description_en' => "Extracted from the leaves of the Psiadia altissima plant, this little-known oil is reputed for its anti-inflammatory and analgesic effects. Used in traditional medicine, it is increasingly present in international natural health product markets, with its woody and herbal scent in liquid form.",
                 'category_id' => 1,
                 'sub_category_id' => 1,  
-                'image_path' => './assets/img/products/PH0027.png',
+                'image_path' => '/img/products/PH0027.png',
             ],
             [
                 'reference' => 'PH0028',
@@ -357,9 +357,8 @@ class ProductSeeder extends Seeder
                 'description_en' => "Derived from the needles and twigs of cypress, this oil is known for its fresh and pure scent and soothing properties. It is used in massage oils, spa treatments, and for respiratory support, generally in liquid form.",
                 'category_id' => 1,
                 'sub_category_id' => 1,
-                'image_path' => './assets/img/products/PH0028.png',
+                'image_path' => '/img/products/PH0028.png',
             ],
-              
         ]);
     }
 }
