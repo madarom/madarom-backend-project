@@ -7,7 +7,7 @@ use \Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Price extends Model
 {
     protected $fillable = [
-        'product_id', 'amount', 'amount_mga', 'type', 'is_active', 'effectives_date'
+        'product_id', 'amount', 'amount_mga', 'type', 'is_active', 'effective_date'
     ];
     public function product(): BelongsTo
     {

@@ -13,8 +13,8 @@ class Product extends Model
     use HasFactory;
 
     protected $fillable = [
-        'code', 'name_fr', 'name_latin', 'description_fr', 'description_en',
-        'category_id', 'subcategory_id', 'image_path'
+        'reference', 'name_fr', 'name_en', 'name_latin', 'description_fr', 'description_en',
+        'category_id', 'sub_category_id', 'image_path'
     ];
 
     // public static function findOrFail($id): \Illuminate\Http\JsonResponse

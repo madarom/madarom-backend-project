@@ -17,10 +17,14 @@ Route::middleware('throttle:60,1')->get('/ping', function () {
 // Api Products
 Route::prefix('products')->group(function () {
     Route::middleware('throttle:60,1')->get('/', [ProductController::class, 'index']);
-    
     Route::middleware('throttle:60,1')->get('/details', [ProductController::class, 'index_details']);
     Route::middleware('throttle:60,1')->get('/details/{id}', [ProductController::class, 'details_show']);
+    Route::middleware('throttle:60,1')->post('/', [ProductController::class, 'store']);
+    Route::middleware('throttle:60,1')
+    ->put('/{id}', [ProductController::class, 'update'])
+    ->withoutMiddleware('auth:sanctum');
     
+    Route::middleware('throttle:60,1')->delete('/{id}', [ProductController::class, 'destroy']);
     Route::middleware('throttle:60,1')->get('/{id}', [ProductController::class, 'show'])
         ->where('id', '[0-9]+'); 
 });
@@ -76,6 +80,13 @@ Route::middleware('auth:sanctum')->prefix('quote')->group(function () {
     Route::post('/payment', [QuoteController::class, 'payment']);
 
 });
+
+Route::options('{any}', function () {
+    return response('', 204)
+        ->header('Access-Control-Allow-Origin', '*')
+        ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+        ->header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With');
+})->where('any', '.*');
 
 
 

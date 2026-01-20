@@ -11,7 +11,7 @@ class ProductResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'code' => $this->code,
+            'reference' => $this->reference,
             'name_fr' => $this->name_fr,
             'name_en' => $this->name_en,
             'name_latin' => $this->name_latin,
@@ -25,7 +25,7 @@ class ProductResource extends JsonResource
                 'amount_mga' => $this->activePrice->amount_mga,
                 'type' => $this->activePrice->type,
                 'is_active' => $this->activePrice->is_active,
-                'effectives_date' => $this->activePrice->effectives_date,
+                'effective_date' => $this->activePrice->effective_date,
             ] : null
         ];
     }

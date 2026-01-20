@@ -29,12 +29,11 @@ class Kernel extends HttpKernel
 {
     /**
      * Global HTTP middleware stack.
-     *
      * These middleware run during every request to your application.
      */
     protected $middleware = [
         TrustProxies::class,
-        HandleCors::class,
+        HandleCors::class, 
         PreventRequestsDuringMaintenance::class,
         ValidatePostSize::class,
         TrimStrings::class,
@@ -43,8 +42,6 @@ class Kernel extends HttpKernel
 
     /**
      * Middleware groups.
-     *
-     * @var array<string, array<int, class-string|string>>
      */
     protected $middlewareGroups = [
         'web' => [
@@ -57,20 +54,15 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
-            'throttle:60,1', // Limitation à 60 requêtes par minute
-            SubstituteBindings::class,
+            HandleCors::class, 
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-                'throttle:api',
-                \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            'throttle:api',
+            SubstituteBindings::class,
         ],
     ];
 
     /**
      * Route middleware.
-     *
-     * These middleware may be assigned to groups or used individually.
-     *
-     * @var array<string, class-string|string>
      */
     protected $routeMiddleware = [
         'auth' => Authenticate::class,
