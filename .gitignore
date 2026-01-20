@@ -21,10 +21,17 @@ Thumbs.db
 /public/build
 /public/hot
 
+# Ignore all storage
 /storage/*
-!/storage/app
-!/storage/app/public
-!/storage/app/public/products
+
+# Re-allow storage structure
+!/storage/app/
+!/storage/app/public/
+!/storage/app/public/products/
+
+# Ignore everything inside products EXCEPT the folder itself
+/storage/app/public/products/*
+!/storage/app/public/products/.gitkeep
 
 /storage/*.key
 /storage/pail
