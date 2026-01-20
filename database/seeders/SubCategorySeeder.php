@@ -15,9 +15,9 @@ class SubCategorySeeder extends Seeder
      */
     public function run(): void
     {
-        // DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         DB::table('sub_categories')->truncate();
-        // DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         SubCategory::insert([
             ['id' => 1, 'name' => 'Respiratory', 'name_fr' => 'Respiratoire', 'category_id' => 1, 'slug' => 'respiratoire'],
